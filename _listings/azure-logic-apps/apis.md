@@ -9,10 +9,10 @@ description: You can connect apps, data, and devices anywhere&mdash;on-premises 
   all of the time.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-logic-apps-01-connectors.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Actions
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/azure-logic-apps/apis.md
 specificationVersion: "0.14"
 apis:
@@ -25,9 +25,9 @@ apis:
   tags: Workflow Run Actions
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/azure-logic-apps/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftlogicworkflowsworkflownamerunsrunnameactions-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/azure-logic-apps/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-logicworkflowsworkflownamerunsrunnameactions-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/azure-logic-apps/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftlogicworkflowsworkflownamerunsrunnameactions-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/azure-logic-apps/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-logicworkflowsworkflownamerunsrunnameactions-get-openapi.md
 - name: Azure Logic Apps API Workflow Run Actions Get
   x-api-slug: azure-logic-apps-api
   description: Gets a workflow run action.
@@ -37,9 +37,9 @@ apis:
   tags: Workflow Run Actions
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/azure-logic-apps/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftlogicworkflowsworkflownamerunsrunnameactionsactionname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/azure-logic-apps/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-logicworkflowsworkflownamerunsrunnameactionsactionname-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/azure-logic-apps/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftlogicworkflowsworkflownamerunsrunnameactionsactionname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/azure-logic-apps/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-logicworkflowsworkflownamerunsrunnameactionsactionname-get-openapi.md
 - name: Azure Logic Apps API
   x-api-slug: azure-logic-apps-api
   description: You can connect apps, data, and devices anywhere&mdash;on-premises

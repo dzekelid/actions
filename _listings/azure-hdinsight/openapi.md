@@ -4,7 +4,7 @@ x-collection-name: Azure HDInsight
 x-complete: 1
 info:
   title: HDInsightManagementClient
-  description: the-hdinsight-management-client
+  description: the-hdinsight-management-client-
   version: 1.0.0
 host: management.azure.com
 basePath: /
@@ -20,7 +20,7 @@ paths:
       summary: Script Actions Delete
       description: Deletes a given persisted script action of the cluster.
       operationId: ScriptActions_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosofthdinsightclustersclusternamescriptactionsscriptname-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-hdinsightclustersclusternamescriptactionsscriptname-delete
       parameters:
       - in: path
         name: clusterName
@@ -43,7 +43,7 @@ paths:
       summary: Clusters Execute Script Actions
       description: Begins executing script actions on the specified HDInsight cluster.
       operationId: Clusters_ExecuteScriptActions
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosofthdinsightclustersclusternameexecutescriptactions-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-hdinsightclustersclusternameexecutescriptactions-post
       parameters:
       - in: path
         name: clusterName
@@ -68,7 +68,7 @@ paths:
       summary: Script Actions List
       description: Lists all persisted script actions for the given cluster.
       operationId: ScriptActions_List
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosofthdinsightclustersclusternamescriptactions-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-hdinsightclustersclusternamescriptactions-get
       parameters:
       - in: path
         name: clusterName

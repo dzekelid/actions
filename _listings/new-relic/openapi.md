@@ -21,7 +21,7 @@ paths:
         the last 10 minutes.\n\nKey transactions can be filtered by their name or
         list of IDs.\n\nSee our documentation for a discussion of \nsummary data output."
       operationId: getKeyTransactions.Format
-      x-api-path-slug: key-transactionsformat-get
+      x-api-path-slug: key-transactions-format-get
       parameters:
       - in: query
         name: filter[ids]
@@ -49,7 +49,7 @@ paths:
         ID. The time range for summary data is the last 10 minutes.\n\nSee our documentation
         for a discussion of \nsummary data output."
       operationId: getKeyTransactions.Format
-      x-api-path-slug: key-transactionsidformat-get
+      x-api-path-slug: key-transactionsid-format-get
       parameters:
       - in: path
         name: id

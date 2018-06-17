@@ -4,7 +4,7 @@ x-collection-name: Slack
 x-complete: 1
 info:
   title: Slack
-  description: one-way-to-interact-with-the-slack-platform-is-its-http-rpcbased-web-api-a-collection-of-methods-requiring-oauth-20based-user-bot-or-workspace-tokens-blessed-with-related-oauth-scopes
+  description: one-way-to-interact-with-the-slack-platform-is-its-http-rpcbased-web-api-a-collection-of-methods-requiring-oauth-2-0based-user-bot-or-workspace-tokens-blessed-with-related-oauth-scopes-
   version: 1.0.3
 host: slack.com
 basePath: /api
@@ -20,7 +20,7 @@ paths:
       summary: List Reactions
       description: Lists reactions made by a user.
       operationId: reactions_list
-      x-api-path-slug: reactionslist-get
+      x-api-path-slug: reactions-list-get
       parameters:
       - in: query
         name: count
@@ -88,7 +88,7 @@ paths:
       summary: Add Reaction
       description: Adds a reaction to an item.
       operationId: reactions_add
-      x-api-path-slug: reactionsadd-post
+      x-api-path-slug: reactions-add-post
       parameters:
       - in: formData
         name: channel
@@ -119,7 +119,7 @@ paths:
       summary: Get Reaction
       description: Gets reactions for an item.
       operationId: reactions_get
-      x-api-path-slug: reactionsget-get
+      x-api-path-slug: reactions-get-get
       parameters:
       - in: query
         name: channel
@@ -150,7 +150,7 @@ paths:
       summary: Remove Reaction
       description: Removes a reaction from an item.
       operationId: reactions_remove
-      x-api-path-slug: reactionsremove-post
+      x-api-path-slug: reactions-remove-post
       parameters:
       - in: formData
         name: channel

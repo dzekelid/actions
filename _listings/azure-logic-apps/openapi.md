@@ -4,7 +4,7 @@ x-collection-name: Azure Logic Apps
 x-complete: 1
 info:
   title: LogicManagementClient
-  description: rest-api-for-azure-logic-apps
+  description: rest-api-for-azure-logic-apps-
   version: 1.0.0
 host: management.azure.com
 basePath: /
@@ -20,7 +20,7 @@ paths:
       summary: Workflow Run Actions List
       description: Gets a list of workflow run actions.
       operationId: WorkflowRunActions_List
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftlogicworkflowsworkflownamerunsrunnameactions-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-logicworkflowsworkflownamerunsrunnameactions-get
       parameters:
       - in: query
         name: $filter
@@ -49,7 +49,7 @@ paths:
       summary: Workflow Run Actions Get
       description: Gets a workflow run action.
       operationId: WorkflowRunActions_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftlogicworkflowsworkflownamerunsrunnameactionsactionname-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-logicworkflowsworkflownamerunsrunnameactionsactionname-get
       parameters:
       - in: path
         name: actionName

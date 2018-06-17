@@ -30,27 +30,27 @@ paths:
       parameters:
       - in: query
         name: end_date
-        description: ' the latest transaction date for which to return data: YYYY'
+        description: 'the latest transaction date for which to return data: YYYY'
         type: string
       - in: query
         name: identifier
-        description: ' the stock market ticker symbol associated with the companies
+        description: 'the stock market ticker symbol associated with the companies
           common stock securities or the Central Index Key issued by the SEC, which
-          is the unique identifier all company filings are issued under: '
+          is the unique identifier all company filings are issued under:'
         type: string
       - in: query
         name: page_number
-        description: ' an integer greater than or equal to 1 for specifying the page
-          number for the return values'
+        description: an integer greater than or equal to 1 for specifying the page
+          number for the return values
         type: string
       - in: query
         name: page_size
-        description: ' an integer greater than 1 for specifying the number of results
-          on each page'
+        description: an integer greater than 1 for specifying the number of results
+          on each page
         type: string
       - in: query
         name: start_date
-        description: ' the earliest transaction date for which to return data: YYYY'
+        description: 'the earliest transaction date for which to return data: YYYY'
         type: string
       responses:
         200:
@@ -70,18 +70,18 @@ paths:
       parameters:
       - in: query
         name: identifier
-        description: ' the Central Index Key issued by the SEC, which is the unique
-          identifier all owner filings are issued under:CENTRAL INDEX KEY'
+        description: the Central Index Key issued by the SEC, which is the unique
+          identifier all owner filings are issued under:CENTRAL INDEX KEY
         type: string
       - in: query
         name: page_number
-        description: ' an integer greater than or equal to 1 for specifying the page
-          number for the return values'
+        description: an integer greater than or equal to 1 for specifying the page
+          number for the return values
         type: string
       - in: query
         name: page_size
-        description: ' an integer greater than 1 for specifying the number of results
-          on each page'
+        description: an integer greater than 1 for specifying the number of results
+          on each page
         type: string
       responses:
         200:

@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "383974"
 tags: Actions
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/xignite/apis.md
 specificationVersion: "0.14"
 apis:
@@ -18,10 +18,10 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical//GetAllCorporateActionsByExchange
-  tags: Corporate, Actions, By, Exchange
+  tags: Market Data,Corporate, Actions, By, Exchange
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/xignite/getallcorporateactionsbyexchange-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/xignite/getallcorporateactionsbyexchange-get-openapi.md
 - name: Xignite Global Historical
   x-api-slug: xignite-global-historical
   description: Financial market data on-demand. Xignite financial Web services help
@@ -34,7 +34,7 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/xignite/openapi.md
 x-common:
-- type: x-net-sdk
+- type: x--net-sdk
   url: http://xignite.github.io/DotNetSDK/
 - type: x-base
   url: http://globalmaster.xignite.com
@@ -94,6 +94,10 @@ x-common:
   url: https://resources.xignite.com/webinars
 - type: x-website
   url: http://www.xignite.com
+- type: x-website
+  url: http://xignite.com
+- type: x-website
+  url: http://xignite.com/
 - type: x-white-papers
   url: http://www.xignite.com/market-data/resources/white-papers/
 include: []

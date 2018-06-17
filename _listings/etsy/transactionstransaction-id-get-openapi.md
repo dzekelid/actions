@@ -7,7 +7,7 @@ info:
   description: Retrieves a Transaction by id.
   version: 1.0.0
 host: openapi.etsy.com
-basePath: /v2/private
+basePath: /v2/private/
 schemes:
 - http
 produces:
@@ -21,6 +21,15 @@ paths:
       description: Retrieves a set of Transaction objects associated to a Receipt.
       operationId: getReceiptsReceiptTransactions
       x-api-path-slug: receiptsreceipt-idtransactions-get
+      parameters:
+      - in: query
+        name: limit
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: offset
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: path
+        name: receipt_id
       responses:
         200:
           description: OK
@@ -34,6 +43,15 @@ paths:
       description: Retrieves a set of Transaction objects associated to a Shop.
       operationId: getShopsShopTransactions
       x-api-path-slug: shopsshop-idtransactions-get
+      parameters:
+      - in: query
+        name: limit
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: offset
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: path
+        name: shop_id
       responses:
         200:
           description: OK
@@ -47,6 +65,9 @@ paths:
       description: Retrieves a Transaction by id.
       operationId: getTransactionsTransaction
       x-api-path-slug: transactionstransaction-id-get
+      parameters:
+      - in: path
+        name: transaction_id
       responses:
         200:
           description: OK

@@ -11,10 +11,10 @@ description: Amazon EMR provides a managed Hadoop framework that makes it easy, 
   and bioinformatics.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonEMR.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Actions
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/aws-elastic-mapreduce/apis.md
 specificationVersion: "0.14"
 apis:
