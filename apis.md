@@ -4,7 +4,7 @@ description: This is a repository of actions APIs, self-contained as a Github re
   with HTML and YAML representations of the APIs and their surrounding operations.
 image: http://template.streamdata.gallery/assets/actions.png
 created: "2018-02-24"
-modified: "2018-06-17"
+modified: "2018-06-25"
 url: http://actions.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
@@ -36,16 +36,16 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/azure-logic-apps/apis.yaml
 - name: Intrinio
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/intrinio/apis.yaml
-- name: Lykke
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/lykke/apis.yaml
-- name: Standard Chartered
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/standard-chartered/apis.yaml
-- name: Blockchain Info
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/blockchain-info/apis.yaml
 - name: BMC Software
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/apis.yaml
 - name: New Relic
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/new-relic/apis.yaml
+- name: Lykke
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/lykke/apis.yaml
+- name: Standard Chartered
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/standard-chartered/apis.yaml
+- name: Blockchain
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/blockchain/apis.yaml
 - name: Xignite
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/xignite/apis.yaml
 - name: Allied Irish Bank
@@ -54,11 +54,11 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/versapay/apis.yaml
 - name: Open Science Framework
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/open-science-framework/apis.yaml
-- name: Pay Run
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/pay-run/apis.yaml
+- name: PayRun.io
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/payrun-io/apis.yaml
 - name: Reverb
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/reverb/apis.yaml
-- name: taxamo
+- name: Taxamo
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/taxamo/apis.yaml
 - name: Xero
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/xero/apis.yaml

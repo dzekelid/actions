@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/994-buffer
 x-kinRank: "7"
 x-alexaRank: "2789"
 tags: Actions
-created: "2018-06-17"
-modified: "2018-06-17"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/buffer/apis.md
 specificationVersion: "0.14"
 apis:
