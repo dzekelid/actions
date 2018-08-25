@@ -14,41 +14,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Actions
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/aws-elastic-beanstalk/apis.md
 specificationVersion: "0.14"
-apis:
-- name: AWS Elastic Beanstalk API
-  x-api-slug: aws-elastic-beanstalk-api
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSElasticBeanstalk.png
-  humanURL: https://aws.amazon.com/elasticbeanstalk/
-  baseURL: :///
-  tags: Amazon Web Services, Containers, Stack Network, API Service Provider, API
-    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
-    API
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/aws-elastic-beanstalk/actiondescribeenvironmentmanagedactions-get-openapi.md
-- name: AWS Elastic Beanstalk API
-  x-api-slug: aws-elastic-beanstalk-api
-  description: AWS Elastic Beanstalk is an easy-to-use service for deploying and scaling
-    web applications and services developed with Java,.NET, PHP, Node.js, Python,
-    Ruby, Go, andDockeron familiar servers such as Apache, Nginx, Passenger, andIIS.You
-    can simply upload your code and Elastic Beanstalk automatically handles the deployment,
-    from capacity provisioning, load balancing, auto-scaling to application health
-    monitoring. At the same time, you retain full control over the AWS resources powering
-    your application and can access the underlying resources at any time.There is
-    no additional charge for Elastic Beanstalk - you pay only for the AWS resources
-    needed to store and run your applications.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSElasticBeanstalk.png
-  humanURL: https://aws.amazon.com/elasticbeanstalk/
-  baseURL: :///
-  tags: Actions
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/aws-elastic-beanstalk/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://aws.ec2.systems.manager.api.gallery.streamdata.io

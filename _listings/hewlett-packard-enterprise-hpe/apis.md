@@ -10,48 +10,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Actions
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/hewlett-packard-enterprise-hpe/apis.md
 specificationVersion: "0.14"
-apis:
-- name: HPE OneSphere API
-  x-api-slug: hpe-onesphere-api
-  description: hpe-onesphere-hybrid-cloud-management-rest-api-for-calls-requiring-authentication-use-restsession-to-get-a-token-
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HPE-logo.png
-  humanURL: http://HPE.com
-  baseURL: https://deic02-hpe.hpeonesphere.com//rest
-  tags: Enterprise, Cloud, Service API, Relative Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/hewlett-packard-enterprise-hpe/deploymentsidactions-post-openapi.md
-- name: HPE OneSphere API
-  x-api-slug: hpe-onesphere-api
-  description: hpe-onesphere-hybrid-cloud-management-rest-api-for-calls-requiring-authentication-use-restsession-to-get-a-token-
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HPE-logo.png
-  humanURL: http://HPE.com
-  baseURL: https://deic02-hpe.hpeonesphere.com//rest
-  tags: Enterprise, Cloud, Service API, Relative Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/hewlett-packard-enterprise-hpe/deploymentsidactions-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/hewlett-packard-enterprise-hpe/zonesidactions-post-openapi.md
-- name: HPE OneSphere API
-  x-api-slug: hpe-onesphere-api
-  description: We help customers use technology to slash the time it takes to turn
-    ideas into value. In turn, they transform industries, markets and lives. Some
-    of our customers run traditional IT environments. Most are transitioning to a
-    secure, cloud-enabled, mobile-friendly infrastructure. Many rely on a combination
-    of both. Wherever they are in that journey, we provide the technology and solutions
-    to help them succeed.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HPE-logo.png
-  humanURL: http://HPE.com
-  baseURL: https://deic02-hpe.hpeonesphere.com//rest
-  tags: Actions
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/hewlett-packard-enterprise-hpe/openapi.md
+apis: []
 x-common:
 - type: x-developer
   url: https://developer.hpe.com/

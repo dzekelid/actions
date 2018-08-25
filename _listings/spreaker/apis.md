@@ -7,14 +7,14 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreak
 x-kinRank: "8"
 x-alexaRank: "12286"
 tags: Actions
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/spreaker/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Spreaker API
-  x-api-slug: spreaker-api
-  description: ""
+- name: Spreaker API - Get User Actions
+  x-api-slug: useruser-idactions-get
+  description: Retrieves the user actions settings
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreaker.jpg
   humanURL: http://spreaker.com
   baseURL: http://api.spreaker.com//
@@ -25,18 +25,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/spreaker/useruser-idactions-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/spreaker/useruser-idactions-get-openapi.md
-- name: Spreaker API
-  x-api-slug: spreaker-api
-  description: Spreaker platform enables you to host and listen thousands of radio
-    shows. Spreaker provides a REST web service that enables developers to read and
-    write data to Spreaker.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreaker.jpg
-  humanURL: http://spreaker.com
-  baseURL: http://api.spreaker.com//
-  tags: Actions
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/spreaker/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://spotify.api.gallery.streamdata.io

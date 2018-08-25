@@ -11,14 +11,15 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Actions
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/aws-rds/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Amazon RDS API
-  x-api-slug: amazon-rds-api
-  description: ""
+- name: AWS RDS API - Describe Pending Maintenance Actions
+  x-api-slug: actiondescribependingmaintenanceactions-get
+  description: Returns a list of resources (for example, DB instances) that have at
+    least one pending maintenance action.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
   humanURL: https://aws.amazon.com/rds/
   baseURL: :///
@@ -29,21 +30,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/aws-rds/actiondescribependingmaintenanceactions-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/aws-rds/actiondescribependingmaintenanceactions-get-openapi.md
-- name: Amazon RDS API
-  x-api-slug: amazon-rds-api
-  description: Amazon Relational Database Service (Amazon RDS) makes it easy to set
-    up, operate, and scale arelational databasein the cloud. It provides cost-efficient
-    and resizable capacity while managing time-consuming database administration tasks,
-    freeing you up to focus on your applications and business. Amazon RDS provides
-    you six familiar database engines to choose from, includingAmazon Aurora,PostgreSQL,MySQL,MariaDB,Oracle,
-    andMicrosoft SQL Server.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
-  humanURL: https://aws.amazon.com/rds/
-  baseURL: :///
-  tags: Actions
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/aws-rds/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.polly.api.gallery.streamdata.io
