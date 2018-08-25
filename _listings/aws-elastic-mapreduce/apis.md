@@ -13,19 +13,20 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Actions
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-24"
+modified: "2018-08-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/aws-elastic-mapreduce/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS Elastic MapReduce API List Bootstrap Actions
+- name: AWS Elastic MapReduce API
   x-api-slug: aws-elastic-mapreduce-api
-  description: Provides information about the bootstrap actions associated with a
-    cluster.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonEMR.png
   humanURL: https://aws.amazon.com/emr/
-  baseURL: ://///?Action=ListBootstrapActions
-  tags: Bootstrap Actions
+  baseURL: :///
+  tags: Amazon Web Services, Data, MapReduce, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/aws-elastic-mapreduce/actionlistbootstrapactions-get-postman.md
@@ -49,6 +50,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/aws-elastic-mapreduce/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://aws.elastic.load.balancing.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.elastic.mapreduce.stack.network
 - type: x-article
   url: http://aws.amazon.com/articles/Elastic-MapReduce
 - type: x-command-line-interface

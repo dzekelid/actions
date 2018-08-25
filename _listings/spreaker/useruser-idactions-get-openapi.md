@@ -54,6 +54,7 @@ paths:
         200:
           description: OK
       tags:
+      - Podcasts
       - User
       - Actions
 x-streamrank:

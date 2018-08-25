@@ -14,31 +14,39 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Actions
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-24"
+modified: "2018-08-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/aws-cloudwatch/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Amazon CloudWatch API Disable Alarm Actions
+- name: Amazon CloudWatch API
   x-api-slug: amazon-cloudwatch-api
-  description: Disables the actions for the specified alarms.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AmazonCloudWatch.png
   humanURL: https://aws.amazon.com/cloudwatch/
-  baseURL: ://///?Action=DisableAlarmActions
-  tags: Alarm Actions
+  baseURL: :///
+  tags: Monitoring, Amazon Web Services, Analysis, Logging, Management, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/aws-cloudwatch/actiondisablealarmactions--postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/aws-cloudwatch/actiondisablealarmactions--openapi.md
-- name: Amazon CloudWatch API Enable Alarm Actions
+- name: Amazon CloudWatch API
   x-api-slug: amazon-cloudwatch-api
-  description: Enables the actions for the specified alarms.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AmazonCloudWatch.png
   humanURL: https://aws.amazon.com/cloudwatch/
-  baseURL: ://///?Action=EnableAlarmActions
-  tags: Alarm Actions
+  baseURL: :///
+  tags: Monitoring, Amazon Web Services, Analysis, Logging, Management, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/aws-cloudwatch/actiondisablealarmactions--postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/aws-cloudwatch/actiondisablealarmactions--openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/aws-cloudwatch/actionenablealarmactions--postman.md
   - type: x-openapi-spec
@@ -63,6 +71,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/aws-cloudwatch/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://aws.cloudsearch.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.cloudwatch.stack.network
 - type: x-articles
   url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=100
 - type: x-blog

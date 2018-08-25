@@ -7,51 +7,21 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykk
 x-kinRank: "8"
 x-alexaRank: "152167"
 tags: Actions
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-24"
+modified: "2018-08-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/lykke/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Lykke Get API Client Pendingactions
+- name: Lykke
   x-api-slug: lykke
-  description: Get api client pendingactions.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
   humanURL: https://lykke.com
-  baseURL: https://////api/Client/pendingActions
-  tags: Client,Pendingactions
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/lykke/apiclientpendingactions-get-openapi.md
-- name: Lykke Get API Operations Unsignedtransactions
-  x-api-slug: lykke
-  description: Get api operations unsignedtransactions.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/Operations/unsignedTransactions
-  tags: Operations,Unsignedtransactions
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/lykke/apioperationsunsignedtransactions-get-openapi.md
-- name: Lykke Add API Operations Unsignedtransactions
-  x-api-slug: lykke
-  description: Add api operations unsignedtransactions.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/Operations/unsignedTransactions
-  tags: Operations,Unsignedtransactions
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/lykke/apioperationsunsignedtransactions-post-openapi.md
-- name: Lykke Get API Transactions
-  x-api-slug: lykke
-  description: Get api transactions.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
-  humanURL: https://lykke.com
-  baseURL: https://////api/Transactions
-  tags: Transactions
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/lykke/apitransactions-get-openapi.md
 - name: Lykke
   x-api-slug: lykke
   description: Lykke is a movement to build one global marketplace that is a level
@@ -64,6 +34,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/lykke/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://lyft.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://lykke.stack.network
 - type: x-crunchbase
   url: https://crunchbase.com/organization/lykke-ag
 - type: x-email

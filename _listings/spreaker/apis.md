@@ -7,18 +7,19 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreak
 x-kinRank: "8"
 x-alexaRank: "12286"
 tags: Actions
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-24"
+modified: "2018-08-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/spreaker/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Spreaker API Get User Actions
+- name: Spreaker API
   x-api-slug: spreaker-api
-  description: Retrieves the user actions settings
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreaker.jpg
   humanURL: http://spreaker.com
-  baseURL: http://api.spreaker.com////user/{user_id}/actions
-  tags: User,Actions
+  baseURL: http://api.spreaker.com//
+  tags: Radio, Audiossssssss, Target, Music, Stack Network, Mobile, Technology, internet,
+    General Data, Relative Data, Service API, Podcasts, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/spreaker/useruser-idactions-get-postman.md
@@ -37,6 +38,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/spreaker/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://spotify.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://spreaker.stack.network
 - type: x-base
   url: http://api.spreaker.com/
 - type: x-blog

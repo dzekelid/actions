@@ -7,142 +7,370 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-so
 x-kinRank: "8"
 x-alexaRank: "27308"
 tags: Actions
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-24"
+modified: "2018-08-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/apis.md
 specificationVersion: "0.14"
 apis:
-- name: BMC Software API Get all available action types
+- name: BMC Software API
   x-api-slug: bmc-software-api
-  description: Gets all known action types
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-software.jpg
   humanURL: http://www.bmc.com
-  baseURL: https://///v1/actions
-  tags: Actions
+  baseURL: https:///
+  tags: Monitoring, Applications, Devops, SaaS, Enterprise, Technology, ISP, API Provider,
+    API Service Provider, Profiles, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actions-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actions-get-openapi.md
-- name: BMC Software API Get all installed actions
+- name: BMC Software API
   x-api-slug: bmc-software-api
-  description: Gets all actions that are installed for the project
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-software.jpg
   humanURL: http://www.bmc.com
-  baseURL: https://///v1/actions/installed
-  tags: Actions
+  baseURL: https:///
+  tags: Monitoring, Applications, Devops, SaaS, Enterprise, Technology, ISP, API Provider,
+    API Service Provider, Profiles, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actions-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalled-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalled-get-openapi.md
-- name: BMC Software API Install action
+- name: BMC Software API
   x-api-slug: bmc-software-api
-  description: Installs an action
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-software.jpg
   humanURL: http://www.bmc.com
-  baseURL: https://///v1/actions/installed
-  tags: Actions
+  baseURL: https:///
+  tags: Monitoring, Applications, Devops, SaaS, Enterprise, Technology, ISP, API Provider,
+    API Service Provider, Profiles, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalled-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalled-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalled-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalled-put-openapi.md
-- name: BMC Software API Get details of an installed action
+- name: BMC Software API
   x-api-slug: bmc-software-api
-  description: Gets a single action definition
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-software.jpg
   humanURL: http://www.bmc.com
-  baseURL: https://///v1/actions/installed/:actionId
-  tags: Actions
+  baseURL: https:///
+  tags: Monitoring, Applications, Devops, SaaS, Enterprise, Technology, ISP, API Provider,
+    API Service Provider, Profiles, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalled-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalled-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalled-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalled-put-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalledactionid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalledactionid-get-openapi.md
-- name: BMC Software API Get all alarms using an action
+- name: BMC Software API
   x-api-slug: bmc-software-api
-  description: Get alarms that are using this action installed for the project
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-software.jpg
   humanURL: http://www.bmc.com
-  baseURL: https://///v1/actions/installed/:actionId/alarms
-  tags: Actions
+  baseURL: https:///
+  tags: Monitoring, Applications, Devops, SaaS, Enterprise, Technology, ISP, API Provider,
+    API Service Provider, Profiles, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalled-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalled-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalled-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalled-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalledactionid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalledactionid-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalledactionidalarms-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalledactionidalarms-get-openapi.md
-- name: BMC Software API Uninstall action
+- name: BMC Software API
   x-api-slug: bmc-software-api
-  description: Uninstalls an action and remove it from the associated alarms(s).
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-software.jpg
   humanURL: http://www.bmc.com
-  baseURL: https://///v1/actions/installed/:actionId
-  tags: Actions
+  baseURL: https:///
+  tags: Monitoring, Applications, Devops, SaaS, Enterprise, Technology, ISP, API Provider,
+    API Service Provider, Profiles, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalled-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalled-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalled-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalled-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalledactionid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalledactionid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalledactionidalarms-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalledactionidalarms-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalledactionid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalledactionid-delete-openapi.md
-- name: BMC Software API Get action
+- name: BMC Software API
   x-api-slug: bmc-software-api
-  description: Gets a single action type
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-software.jpg
   humanURL: http://www.bmc.com
-  baseURL: https://///v1/actions/:action
-  tags: Actions
+  baseURL: https:///
+  tags: Monitoring, Applications, Devops, SaaS, Enterprise, Technology, ISP, API Provider,
+    API Service Provider, Profiles, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalled-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalled-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalled-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalled-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalledactionid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalledactionid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalledactionidalarms-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalledactionidalarms-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalledactionid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalledactionid-delete-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsaction-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsaction-get-openapi.md
-- name: BMC Software API Get Actions (Alerts) List
+- name: BMC Software API
   x-api-slug: bmc-software-api
-  description: Returns a list of actions (alerts) that have been generated for your
-    account.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-software.jpg
   humanURL: http://www.bmc.com
-  baseURL: |-
-    https:////
-        /api/{version}/actions
-  tags: Actions
+  baseURL: https:///
+  tags: Monitoring, Applications, Devops, SaaS, Enterprise, Technology, ISP, API Provider,
+    API Service Provider, Profiles, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalled-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalled-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalled-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalled-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalledactionid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalledactionid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalledactionidalarms-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalledactionidalarms-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalledactionid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalledactionid-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsaction-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsaction-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/apiversionactions-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/apiversionactions-get-openapi.md
-- name: BMC Software API Create Action
+- name: BMC Software API
   x-api-slug: bmc-software-api
-  description: Create a new Action.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-software.jpg
   humanURL: http://www.bmc.com
-  baseURL: https://///actions
-  tags: Actions
+  baseURL: https:///
+  tags: Monitoring, Applications, Devops, SaaS, Enterprise, Technology, ISP, API Provider,
+    API Service Provider, Profiles, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalled-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalled-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalled-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalled-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalledactionid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalledactionid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalledactionidalarms-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalledactionidalarms-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalledactionid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalledactionid-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsaction-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsaction-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/apiversionactions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/apiversionactions-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/actions-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/actions-post-openapi.md
-- name: BMC Software API Update Action
+- name: BMC Software API
   x-api-slug: bmc-software-api
-  description: Update an existing Action.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-software.jpg
   humanURL: http://www.bmc.com
-  baseURL: https://///actions/{action_id}
-  tags: Actions
+  baseURL: https:///
+  tags: Monitoring, Applications, Devops, SaaS, Enterprise, Technology, ISP, API Provider,
+    API Service Provider, Profiles, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalled-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalled-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalled-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalled-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalledactionid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalledactionid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalledactionidalarms-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalledactionidalarms-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalledactionid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalledactionid-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsaction-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsaction-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/apiversionactions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/apiversionactions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/actions-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/actions-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/actionsaction-id-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/actionsaction-id-put-openapi.md
-- name: BMC Software API List Actions
+- name: BMC Software API
   x-api-slug: bmc-software-api
-  description: List of all Actions.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-software.jpg
   humanURL: http://www.bmc.com
-  baseURL: https://///actions
-  tags: Actions
+  baseURL: https:///
+  tags: Monitoring, Applications, Devops, SaaS, Enterprise, Technology, ISP, API Provider,
+    API Service Provider, Profiles, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalled-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalled-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalled-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalled-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalledactionid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalledactionid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalledactionidalarms-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalledactionidalarms-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalledactionid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsinstalledactionid-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsaction-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/v1actionsaction-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/apiversionactions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/apiversionactions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/actions-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/actions-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/actionsaction-id-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/actionsaction-id-put-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/actions-get-postman.md
   - type: x-openapi-spec
@@ -159,6 +387,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/bmc-software/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://blogger.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://bmc.software.stack.network
 - type: x-blog
   url: http://www.bmc.com/blogs
 - type: x-blog-rss
