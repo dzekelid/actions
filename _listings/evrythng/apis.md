@@ -8,11 +8,45 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28871-evry
 x-kinRank: "7"
 x-alexaRank: "686135"
 tags: Actions
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/evrythng/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: EVRYTHNG - /actions/scans (U)
+  x-api-slug: actionsscans-post
+  description: |-
+    **USER** creates a "scan" action on a thng.
+
+    **ATTENTION -->** use a valid thng ID in the payload!
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28871-evrythng-com.jpg
+  humanURL: https://evrythng.com
+  baseURL: https://example.com//
+  tags: SaaS, Enterprise, Internet of Things, Profiles, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/evrythng/actionsscans-post-openapi.md
+- name: EVRYTHNG - /actions?project={id} (O)
+  x-api-slug: actions-get
+  description: '**OPERATOR** returns all the action types in the scope of an Application.'
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28871-evrythng-com.jpg
+  humanURL: https://evrythng.com
+  baseURL: https://example.com//
+  tags: SaaS, Enterprise, Internet of Things, Profiles, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/evrythng/actions-get-openapi.md
+- name: EVRYTHNG - /actions?project={id} (O)
+  x-api-slug: actions-post
+  description: '**OPERATOR** creates a new custom action type for app ID (visible
+    only by that app).'
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28871-evrythng-com.jpg
+  humanURL: https://evrythng.com
+  baseURL: https://example.com//
+  tags: SaaS, Enterprise, Internet of Things, Profiles, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/evrythng/actions-post-openapi.md
 x-common:
 - type: x-deprecation
   url: https://developers.evrythng.com/docs/deprecation

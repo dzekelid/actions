@@ -11,11 +11,50 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Actions
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/azure-blockchain-workbench/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Azure Blockchain Workbench REST API - Get Contracts Actions
+  x-api-slug: apiv1contractscontractidactions-get
+  description: |-
+    Lists all actions, which can be taken by the given user and current state of the specified smart contract
+                 instance. Users get all applicable actions if the user has an associated application role or is associated with a smart
+                 contract instance role for the current state of the specified smart contract instance.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-blockchain.png
+  humanURL: https://docs.microsoft.com/en-us/rest/api/azure-blockchain-workbench/
+  baseURL: https:////
+  tags: Blockchain, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/azure-blockchain-workbench/apiv1contractscontractidactions-get-openapi.md
+- name: Azure Blockchain Workbench REST API - Post Contracts Actions
+  x-api-slug: apiv1contractscontractidactions-post
+  description: |-
+    Executes an action for the specified smart contract instance and action ID. Users are only able to execute
+                 the action given the current state of the specified smart contract instance and the user's associated application role
+                 or smart contract instance role.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-blockchain.png
+  humanURL: https://docs.microsoft.com/en-us/rest/api/azure-blockchain-workbench/
+  baseURL: https:////
+  tags: Blockchain, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/azure-blockchain-workbench/apiv1contractscontractidactions-post-openapi.md
+- name: Azure Blockchain Workbench REST API - Get Contracts Actions
+  x-api-slug: apiv1contractscontractidactionsactionid-get
+  description: |-
+    Gets the action matching the specified action ID. Users get the action if the user can take the action
+                 given the current state of the specified smart contract instance and the user's associated application role or smart
+                 contract instance role.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-blockchain.png
+  humanURL: https://docs.microsoft.com/en-us/rest/api/azure-blockchain-workbench/
+  baseURL: https:////
+  tags: Blockchain, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/azure-blockchain-workbench/apiv1contractscontractidactionsactionid-get-openapi.md
 x-common:
 - type: x-blog
   url: https://azure.microsoft.com/en-us/blog/topics/blockchain/

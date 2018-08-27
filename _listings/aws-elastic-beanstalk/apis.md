@@ -14,11 +14,23 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Actions
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/aws-elastic-beanstalk/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Elastic Beanstalk API - Describe Environment Managed Actions
+  x-api-slug: actiondescribeenvironmentmanagedactions-get
+  description: Lists an environment's upcoming and in-progress managed actions.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSElasticBeanstalk.png
+  humanURL: https://aws.amazon.com/elasticbeanstalk/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/aws-elastic-beanstalk/actiondescribeenvironmentmanagedactions-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.ec2.systems.manager.api.gallery.streamdata.io

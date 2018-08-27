@@ -10,11 +10,32 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Actions
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/hewlett-packard-enterprise-hpe/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: HPE OneSphere API - Post Deployments Actions
+  x-api-slug: deploymentsidactions-post
+  description: Peforms an action to change the state of a deployment. It requires
+    any project role, or the **administrator** or **project creator** global role.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HPE-logo.png
+  humanURL: http://HPE.com
+  baseURL: https://deic02-hpe.hpeonesphere.com//rest
+  tags: Enterprise, Cloud, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/hewlett-packard-enterprise-hpe/deploymentsidactions-post-openapi.md
+- name: HPE OneSphere API - Post Zones Actions
+  x-api-slug: zonesidactions-post
+  description: Peforms an action to the zone. It requires the **administrator** role.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HPE-logo.png
+  humanURL: http://HPE.com
+  baseURL: https://deic02-hpe.hpeonesphere.com//rest
+  tags: Enterprise, Cloud, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actions/master/_listings/hewlett-packard-enterprise-hpe/zonesidactions-post-openapi.md
 x-common:
 - type: x-developer
   url: https://developer.hpe.com/
